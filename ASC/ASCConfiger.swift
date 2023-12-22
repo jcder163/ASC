@@ -10,11 +10,21 @@ import Foundation
 class ASCConfiger {
     
     static func save(project: String, issuser_id: String, key_id: String, token: String, appId: String) {
-        UserDefaults.standard.set([project : ["issuser_id" : issuser_id,
-                                                "key_id" : key_id,
-                                                "appId" : appId,
-                                                "token" : token]],
-                                  forKey: "projects_config")
+        if var data = UserDefaults.standard.object(forKey: "projects_config") as? [String : [String : String]] {
+            data[project] = ["issuser_id" : issuser_id,
+                             "key_id" : key_id,
+                             "appId" : appId,
+                             "token" : token]
+            UserDefaults.standard.set(data,
+                                      forKey: "projects_config")
+        } else {
+            UserDefaults.standard.set([project : ["issuser_id" : issuser_id,
+                                                    "key_id" : key_id,
+                                                    "appId" : appId,
+                                                    "token" : token]],
+                                      forKey: "projects_config")
+        }
+
     }
     
     static func issuser_id(_ project: String) -> String {
