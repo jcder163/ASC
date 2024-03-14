@@ -91,13 +91,7 @@
 			children = (
 				CCCF39E62A14DA00001A9342 /* ASC.swift */,
 				CCDF93222BA192610080D962 /* ASC.Config.swift */,
-				CCDF931E2BA192100080D962 /* ASC.Version.swift */,
-				CCDF93182BA172920080D962 /* ASC.Version.Builds.swift */,
-				CCDF931A2BA186450080D962 /* ASC.Version.Update.swift */,
-				CCDF931C2BA186810080D962 /* ASC.Version.Create.swift */,
-				CCDF93242BA193A70080D962 /* ASC.Version.Submission.swift */,
-				CCEB5E222BA29ACE001F5B2C /* ASC.Version.Publish.swift */,
-				CCEB5E242BA2A67B001F5B2C /* ASC.Version.Show.swift */,
+				CCEB5E262BA2C200001F5B2C /* Version */,
 				CCDF93202BA1923E0080D962 /* ASC.Show.swift */,
 				CCCF39E32A147B2D001A9342 /* ASCManager.swift */,
 				CCDF93262BA1A1410080D962 /* ASCManager.Foundation.swift */,
@@ -106,6 +100,20 @@
 				CCDF93162BA172000080D962 /* Loger.swift */,
 			);
 			path = ASC;
+			sourceTree = "<group>";
+		};
+		CCEB5E262BA2C200001F5B2C /* Version */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF931E2BA192100080D962 /* ASC.Version.swift */,
+				CCDF93182BA172920080D962 /* ASC.Version.Builds.swift */,
+				CCDF931A2BA186450080D962 /* ASC.Version.Update.swift */,
+				CCDF931C2BA186810080D962 /* ASC.Version.Create.swift */,
+				CCDF93242BA193A70080D962 /* ASC.Version.Submission.swift */,
+				CCEB5E222BA29ACE001F5B2C /* ASC.Version.Publish.swift */,
+				CCEB5E242BA2A67B001F5B2C /* ASC.Version.Show.swift */,
+			);
+			path = Version;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
