@@ -3,4 +3,68 @@
    uuid = "E8E581A1-6434-4898-B607-D18749468461"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE26CA7D-02CB-4363-96F1-0BB4AC3D9C01"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/ASC-bpbtnmmwfucwxndlkknkcflazvsj/SourcePackages/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable Types/AsyncParsableCommand.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "main()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE26CA7D-02CB-4363-96F1-0BB4AC3D9C01 - 2dea9069bcc2d413"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for static ArgumentParser.AsyncParsableCommand.main() async -&gt; ()"
+                  moduleName = "ASC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cocoa/Library/Developer/Xcode/DerivedData/ASC-bpbtnmmwfucwxndlkknkcflazvsj/SourcePackages/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable%20Types/AsyncParsableCommand.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+               <Location
+                  uuid = "CE26CA7D-02CB-4363-96F1-0BB4AC3D9C01 - 63f65103ce5f7276"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for static ArgumentParser.AsyncParsableCommand.main() async -&gt; ()"
+                  moduleName = "ASC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cocoa/Library/Developer/Xcode/DerivedData/ASC-bpbtnmmwfucwxndlkknkcflazvsj/SourcePackages/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable%20Types/AsyncParsableCommand.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E60C2DE-7A0C-4DA7-AF9C-3AB8D06B22FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASC/ASC.Version.Publish.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "run()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

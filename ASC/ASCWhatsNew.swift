@@ -9,7 +9,7 @@ import Foundation
 
 struct ASCWhatsNew {
     
-    /// <#Description#>
+    /// 获取whatsnew信息，根据入参，拆分成不同语言的whats new
     /// - Parameters:
     ///   - locale: <#localize description#>
     ///   - whatsNewStr: "whats new，每种语言最少十个字。‘,’分割不同语言，语言信息和内容以‘:’分割，参考'en-US:1234567890,zh-Hans:1234567890'"

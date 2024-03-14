@@ -13,6 +13,17 @@
 		CCCF39E72A14DA00001A9342 /* ASC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF39E62A14DA00001A9342 /* ASC.swift */; };
 		CCCF39E92A14DDC2001A9342 /* ASCConfiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF39E82A14DDC2001A9342 /* ASCConfiger.swift */; };
 		CCCF39EB2A14EE68001A9342 /* ASCWhatsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF39EA2A14EE68001A9342 /* ASCWhatsNew.swift */; };
+		CCDF93172BA172000080D962 /* Loger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF93162BA172000080D962 /* Loger.swift */; };
+		CCDF93192BA172920080D962 /* ASC.Version.Builds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF93182BA172920080D962 /* ASC.Version.Builds.swift */; };
+		CCDF931B2BA186450080D962 /* ASC.Version.Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF931A2BA186450080D962 /* ASC.Version.Update.swift */; };
+		CCDF931D2BA186810080D962 /* ASC.Version.Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF931C2BA186810080D962 /* ASC.Version.Create.swift */; };
+		CCDF931F2BA192100080D962 /* ASC.Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF931E2BA192100080D962 /* ASC.Version.swift */; };
+		CCDF93212BA1923E0080D962 /* ASC.Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF93202BA1923E0080D962 /* ASC.Show.swift */; };
+		CCDF93232BA192610080D962 /* ASC.Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF93222BA192610080D962 /* ASC.Config.swift */; };
+		CCDF93252BA193A70080D962 /* ASC.Version.Submission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF93242BA193A70080D962 /* ASC.Version.Submission.swift */; };
+		CCDF93272BA1A1410080D962 /* ASCManager.Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF93262BA1A1410080D962 /* ASCManager.Foundation.swift */; };
+		CCEB5E232BA29ACE001F5B2C /* ASC.Version.Publish.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEB5E222BA29ACE001F5B2C /* ASC.Version.Publish.swift */; };
+		CCEB5E252BA2A67B001F5B2C /* ASC.Version.Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEB5E242BA2A67B001F5B2C /* ASC.Version.Show.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +44,17 @@
 		CCCF39E62A14DA00001A9342 /* ASC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.swift; sourceTree = "<group>"; };
 		CCCF39E82A14DDC2001A9342 /* ASCConfiger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCConfiger.swift; sourceTree = "<group>"; };
 		CCCF39EA2A14EE68001A9342 /* ASCWhatsNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCWhatsNew.swift; sourceTree = "<group>"; };
+		CCDF93162BA172000080D962 /* Loger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loger.swift; sourceTree = "<group>"; };
+		CCDF93182BA172920080D962 /* ASC.Version.Builds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.Version.Builds.swift; sourceTree = "<group>"; };
+		CCDF931A2BA186450080D962 /* ASC.Version.Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.Version.Update.swift; sourceTree = "<group>"; };
+		CCDF931C2BA186810080D962 /* ASC.Version.Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.Version.Create.swift; sourceTree = "<group>"; };
+		CCDF931E2BA192100080D962 /* ASC.Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.Version.swift; sourceTree = "<group>"; };
+		CCDF93202BA1923E0080D962 /* ASC.Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.Show.swift; sourceTree = "<group>"; };
+		CCDF93222BA192610080D962 /* ASC.Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.Config.swift; sourceTree = "<group>"; };
+		CCDF93242BA193A70080D962 /* ASC.Version.Submission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.Version.Submission.swift; sourceTree = "<group>"; };
+		CCDF93262BA1A1410080D962 /* ASCManager.Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCManager.Foundation.swift; sourceTree = "<group>"; };
+		CCEB5E222BA29ACE001F5B2C /* ASC.Version.Publish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.Version.Publish.swift; sourceTree = "<group>"; };
+		CCEB5E242BA2A67B001F5B2C /* ASC.Version.Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.Version.Show.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +90,20 @@
 			isa = PBXGroup;
 			children = (
 				CCCF39E62A14DA00001A9342 /* ASC.swift */,
+				CCDF93222BA192610080D962 /* ASC.Config.swift */,
+				CCDF931E2BA192100080D962 /* ASC.Version.swift */,
+				CCDF93182BA172920080D962 /* ASC.Version.Builds.swift */,
+				CCDF931A2BA186450080D962 /* ASC.Version.Update.swift */,
+				CCDF931C2BA186810080D962 /* ASC.Version.Create.swift */,
+				CCDF93242BA193A70080D962 /* ASC.Version.Submission.swift */,
+				CCEB5E222BA29ACE001F5B2C /* ASC.Version.Publish.swift */,
+				CCEB5E242BA2A67B001F5B2C /* ASC.Version.Show.swift */,
+				CCDF93202BA1923E0080D962 /* ASC.Show.swift */,
 				CCCF39E32A147B2D001A9342 /* ASCManager.swift */,
+				CCDF93262BA1A1410080D962 /* ASCManager.Foundation.swift */,
 				CCCF39E82A14DDC2001A9342 /* ASCConfiger.swift */,
 				CCCF39EA2A14EE68001A9342 /* ASCWhatsNew.swift */,
+				CCDF93162BA172000080D962 /* Loger.swift */,
 			);
 			path = ASC;
 			sourceTree = "<group>";
@@ -141,10 +174,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEB5E252BA2A67B001F5B2C /* ASC.Version.Show.swift in Sources */,
 				CCCF39EB2A14EE68001A9342 /* ASCWhatsNew.swift in Sources */,
+				CCDF93232BA192610080D962 /* ASC.Config.swift in Sources */,
+				CCEB5E232BA29ACE001F5B2C /* ASC.Version.Publish.swift in Sources */,
+				CCDF93252BA193A70080D962 /* ASC.Version.Submission.swift in Sources */,
+				CCDF93172BA172000080D962 /* Loger.swift in Sources */,
+				CCDF93192BA172920080D962 /* ASC.Version.Builds.swift in Sources */,
+				CCDF93212BA1923E0080D962 /* ASC.Show.swift in Sources */,
 				CCCF39E92A14DDC2001A9342 /* ASCConfiger.swift in Sources */,
 				CCCF39E72A14DA00001A9342 /* ASC.swift in Sources */,
+				CCDF931B2BA186450080D962 /* ASC.Version.Update.swift in Sources */,
 				CCCF39E42A147B2D001A9342 /* ASCManager.swift in Sources */,
+				CCDF931F2BA192100080D962 /* ASC.Version.swift in Sources */,
+				CCDF93272BA1A1410080D962 /* ASCManager.Foundation.swift in Sources */,
+				CCDF931D2BA186810080D962 /* ASC.Version.Create.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

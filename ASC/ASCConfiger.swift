@@ -9,7 +9,18 @@ import Foundation
 
 class ASCConfiger {
     
-    static func save(project: String, issuser_id: String, key_id: String, token: String, appId: String) {
+    /// 设置配置
+    /// - Parameters:
+    ///   - project: 项目名称，用于比较方便的识别项目
+    ///   - issuser_id: issuser_id description
+    ///   - key_id: key_id description
+    ///   - token: token description
+    ///   - appId: appId description
+    static func save(project: String,
+                     issuser_id: String,
+                     key_id: String,
+                     token: String,
+                     appId: String) {
         if var data = UserDefaults.standard.object(forKey: "projects_config") as? [String : [String : String]] {
             data[project] = ["issuser_id" : issuser_id,
                              "key_id" : key_id,
