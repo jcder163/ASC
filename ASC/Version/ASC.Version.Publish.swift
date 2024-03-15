@@ -38,7 +38,7 @@ extension ASC.Version {
             let versionInfo = try await manager.fetchAppVerion(appID: app.id, versionString: version)
             
             switch versionInfo.attributes?.appStoreState {
-            case .accepted:
+            case .pendingDeveloperRelease:
                 _ = try await manager.publishVersion(with: versionInfo.id)
                 let cResult = try await manager.fetchAppVerion(appID: app.id,
                                                                versionString: version)
