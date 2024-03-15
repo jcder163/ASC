@@ -20,7 +20,7 @@ extension ASC {
             abstract: " 版本信息管理 ",
 
             // Commands can define a version for automatic '--version' support.
-            version: "1.0.0",
+            version: "2.0.0",
 
             // Pass an array to `subcommands` to set up a nested tree of subcommands.
             // With language support for type-level introspection, this could be

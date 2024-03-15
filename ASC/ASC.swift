@@ -18,7 +18,7 @@ struct ASC: AsyncParsableCommand {
         abstract: " 创建版本，更新whats new，提交审核，检查审核状态，发布审核完成版本 ",
 
         // Commands can define a version for automatic '--version' support.
-        version: "1.0.1",
+        version: "2.0.0",
 
         // Pass an array to `subcommands` to set up a nested tree of subcommands.
         // With language support for type-level introspection, this could be
