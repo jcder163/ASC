@@ -24,8 +24,7 @@ extension ASC.Version {
         var version: String?
         
         mutating func run() async throws {
-            project = "reading"
-            version = "2.13.0"
+
             guard let project = project,
                     let version = version else {
                 fatalError("Project, Version 不可为空")
