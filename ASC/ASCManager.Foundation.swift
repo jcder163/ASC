@@ -52,7 +52,7 @@ extension ASCManager {
     /// - Returns: 版本信息
     func fetchAppVerion(appID: String,
                         versionString: String) async throws -> AppStoreVersion {
-        let req = APIEndpoint.v1.apps.id(appID).appStoreVersions.get(parameters: APIEndpoint.V1.Apps.WithID.AppStoreVersions.GetParameters(filterVersionString: [versionString], include: [.build]))
+        let req = APIEndpoint.v1.apps.id(appID).appStoreVersions.get(parameters: APIEndpoint.V1.Apps.WithID.AppStoreVersions.GetParameters(filterVersionString: [versionString], include: [.build, .appStoreVersionPhasedRelease]))
         
         
         let result = try await provider.request(req).data
@@ -118,18 +118,6 @@ extension ASCManager {
         }
     }
     
-}
-private extension ASCManager {
-    
-    /// 获取灰度状态
-    /// - Parameter appversion: 版本
-    /// - Returns: 灰度信息
-    func readPhasedRelease(versionID: String) async throws -> AppStoreVersionPhasedRelease {
-        let req = APIEndpoint.v1.appStoreVersions.id(versionID).appStoreVersionPhasedRelease.get()
-        
-        let result = try await provider.request(req).data
-        return result
-    }
     
     /// <#Description#>
     /// - Parameter appVersion: <#appVersion description#>
@@ -145,6 +133,20 @@ private extension ASCManager {
         
     }
     
+    
+}
+private extension ASCManager {
+    
+    /// 获取灰度状态
+    /// - Parameter appversion: 版本
+    /// - Returns: 灰度信息
+    func readPhasedRelease(versionID: String) async throws -> AppStoreVersionPhasedRelease {
+        let req = APIEndpoint.v1.appStoreVersions.id(versionID).appStoreVersionPhasedRelease.get()
+        
+        let result = try await provider.request(req).data
+        return result
+    }
+
     /// 更新app本地化信息
     /// - Parameters:
     ///   - whatsNew: whats new

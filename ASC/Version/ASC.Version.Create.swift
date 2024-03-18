@@ -40,6 +40,10 @@ extension ASC.Version {
             let app = try await manager.fetchApp(with: ASCConfiger.appId(project))
             // 根据版本号创建版本
             let versionInfo = try await manager.createVersion(appID: app.id, versionString: version)
+            
+            if versionInfo.relationships?.appStoreVersionPhasedRelease?.data == nil {
+                _ = try await manager.createPhasedRelease(versionID: versionInfo.id)
+            }
             // 创建完成版本则修改为灰度发布
             try await manager.setPhased(versionId: versionInfo.id)
 

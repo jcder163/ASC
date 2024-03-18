@@ -51,7 +51,11 @@ extension ASC.Version {
             // 根据版本号查询
             let versionInfo = try await manager.fetchAppVerion(appID: app.id, versionString: version)
       
-           try await manager.setPhased(versionId: versionInfo.id)
+            if versionInfo.relationships?.appStoreVersionPhasedRelease?.data == nil {
+                _ = try await manager.createPhasedRelease(versionID: versionInfo.id)
+            }
+            
+            try await manager.setPhased(versionId: versionInfo.id)
             
             if let whatsnew = whatsnew {
                 try await manager.updateWhatsNew(whatsnew, versionId: versionInfo.id)

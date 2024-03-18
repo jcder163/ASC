@@ -66,5 +66,113 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E16D1DD9-BC93-4981-8A88-C20688AC5CCB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASC/ASCManager.Foundation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "setPhased(versionId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A888CF97-686F-4015-93D6-D39F0C54165F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASC/ASCManager.Foundation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "setPhased(versionId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A888CF97-686F-4015-93D6-D39F0C54165F - a327ca8802dcf7f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for ASC.ASCManager.setPhased(versionId: Swift.String) async throws -&gt; ()"
+                  moduleName = "ASC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cocoa/Documents/work/tools/ASC/ASC/ASCManager.Foundation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82">
+               </Location>
+               <Location
+                  uuid = "A888CF97-686F-4015-93D6-D39F0C54165F - 473951aae7e985f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for ASC.ASCManager.setPhased(versionId: Swift.String) async throws -&gt; ()"
+                  moduleName = "ASC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cocoa/Documents/work/tools/ASC/ASC/ASCManager.Foundation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3D30EA7-4218-4DAD-B258-D56067A061CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASC/Version/ASC.Version.Show.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "fetchPhasedRelease(versionID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A3D30EA7-4218-4DAD-B258-D56067A061CF - ea68268d805e5a9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ASC.ASCManager.fetchPhasedRelease(versionID: Swift.String) async throws -&gt; AppStoreConnect_Swift_SDK.AppStoreVersionPhasedRelease"
+                  moduleName = "ASC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cocoa/Documents/work/tools/ASC/ASC/Version/ASC.Version.Show.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98">
+               </Location>
+               <Location
+                  uuid = "A3D30EA7-4218-4DAD-B258-D56067A061CF - ea68268d805e5a9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ASC.ASCManager.fetchPhasedRelease(versionID: Swift.String) async throws -&gt; AppStoreConnect_Swift_SDK.AppStoreVersionPhasedRelease"
+                  moduleName = "ASC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cocoa/Documents/work/tools/ASC/ASC/Version/ASC.Version.Show.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -24,7 +24,8 @@ extension ASC.Version {
         var version: String?
         
         mutating func run() async throws {
-
+            project = "reading"
+            version = "2.13.0"
             guard let project = project,
                     let version = version else {
                 fatalError("Project, Version 不可为空")
@@ -35,7 +36,10 @@ extension ASC.Version {
             let app = try await manager.fetchApp(with: ASCConfiger.appId(project))
             // 查询版本信息
             let versionInfo = try await manager.fetchAppVerion(appID: app.id, versionString: version)
-  
+            
+            if versionInfo.relationships?.appStoreVersionPhasedRelease?.data == nil {
+                _ = try await manager.createPhasedRelease(versionID: versionInfo.id)
+            }
             
             print("项目: \(project), ID:\(app.id)")
             LogInfo("版本信息")
@@ -43,7 +47,7 @@ extension ASC.Version {
             print("版本ID: \(versionInfo.id)")
             LogInfo("构建信息")
             if let buildID = versionInfo.relationships?.build?.data?.id {
-                var build = try await manager.fetchBuild(with: buildID)
+                let build = try await manager.fetchBuild(with: buildID)
                 print("构建号: \(build.attributes?.version ?? ""), 构建状态: \(build.attributes?.processingState?.rawValue ?? "")")
                 print("构建ID: \(build.id)")
 
@@ -86,8 +90,12 @@ private extension ASCManager {
     /// - Returns: 灰度信息
     func fetchPhasedRelease(versionID: String) async throws -> AppStoreVersionPhasedRelease {
         let req = APIEndpoint.v1.appStoreVersions.id(versionID).appStoreVersionPhasedRelease.get()
-        
-        let result = try await provider.request(req).data
-        return result
+        do {
+            let result = try await provider.request(req).data
+            return result
+
+        } catch let error {
+            throw error
+        }
     }
 }
