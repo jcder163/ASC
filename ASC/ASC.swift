@@ -23,7 +23,7 @@ struct ASC: AsyncParsableCommand {
         // Pass an array to `subcommands` to set up a nested tree of subcommands.
         // With language support for type-level introspection, this could be
         // provided by automatically finding nested `ParsableCommand` types.
-        subcommands: [Version.self, Config.self, Show.self],
+        subcommands: [Version.self, Config.self, Show.self, TestFlight.self],
 
         // A default subcommand, when provided, is automatically selected if a
         // subcommand is not given on the command line.

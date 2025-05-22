@@ -18,36 +18,6 @@
             endingLineNumber = "42"
             landmarkName = "main()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CE26CA7D-02CB-4363-96F1-0BB4AC3D9C01 - 2dea9069bcc2d413"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for static ArgumentParser.AsyncParsableCommand.main() async -&gt; ()"
-                  moduleName = "ASC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cocoa/Library/Developer/Xcode/DerivedData/ASC-bpbtnmmwfucwxndlkknkcflazvsj/SourcePackages/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable%20Types/AsyncParsableCommand.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42">
-               </Location>
-               <Location
-                  uuid = "CE26CA7D-02CB-4363-96F1-0BB4AC3D9C01 - 63f65103ce5f7276"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for static ArgumentParser.AsyncParsableCommand.main() async -&gt; ()"
-                  moduleName = "ASC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cocoa/Library/Developer/Xcode/DerivedData/ASC-bpbtnmmwfucwxndlkknkcflazvsj/SourcePackages/checkouts/swift-argument-parser/Sources/ArgumentParser/Parsable%20Types/AsyncParsableCommand.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -98,28 +68,28 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A888CF97-686F-4015-93D6-D39F0C54165F - a327ca8802dcf7f6"
+                  uuid = "A888CF97-686F-4015-93D6-D39F0C54165F - 41597d3f61827ce5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(5) suspend resume partial function for ASC.ASCManager.setPhased(versionId: Swift.String) async throws -&gt; ()"
                   moduleName = "ASC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cocoa/Documents/work/tools/ASC/ASC/ASCManager.Foundation.swift"
+                  urlString = "file:///Users/cocoa/work/tools/ASC/ASC/ASCManager.Foundation.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "82"
                   endingLineNumber = "82">
                </Location>
                <Location
-                  uuid = "A888CF97-686F-4015-93D6-D39F0C54165F - 473951aae7e985f9"
+                  uuid = "A888CF97-686F-4015-93D6-D39F0C54165F - a547e61d84b70eea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(6) suspend resume partial function for ASC.ASCManager.setPhased(versionId: Swift.String) async throws -&gt; ()"
                   moduleName = "ASC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cocoa/Documents/work/tools/ASC/ASC/ASCManager.Foundation.swift"
+                  urlString = "file:///Users/cocoa/work/tools/ASC/ASC/ASCManager.Foundation.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "82"
@@ -144,32 +114,32 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A3D30EA7-4218-4DAD-B258-D56067A061CF - ea68268d805e5a9f"
+                  uuid = "A3D30EA7-4218-4DAD-B258-D56067A061CF - e97141c9f8a94223"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(4) suspend resume partial function for ASC.ASCManager.fetchPhasedRelease(versionID: Swift.String) async throws -&gt; AppStoreConnect_Swift_SDK.AppStoreVersionPhasedRelease"
                   moduleName = "ASC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cocoa/Documents/work/tools/ASC/ASC/Version/ASC.Version.Show.swift"
+                  urlString = "file:///Users/cocoa/work/tools/ASC/ASC/Version/ASC.Version.Show.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98">
+                  startingLineNumber = "97"
+                  endingLineNumber = "97">
                </Location>
                <Location
-                  uuid = "A3D30EA7-4218-4DAD-B258-D56067A061CF - ea68268d805e5a9f"
+                  uuid = "A3D30EA7-4218-4DAD-B258-D56067A061CF - e97141c9f8a94223"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "(4) suspend resume partial function for ASC.ASCManager.fetchPhasedRelease(versionID: Swift.String) async throws -&gt; AppStoreConnect_Swift_SDK.AppStoreVersionPhasedRelease"
                   moduleName = "ASC"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/cocoa/Documents/work/tools/ASC/ASC/Version/ASC.Version.Show.swift"
+                  urlString = "file:///Users/cocoa/work/tools/ASC/ASC/Version/ASC.Version.Show.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98">
+                  startingLineNumber = "97"
+                  endingLineNumber = "97">
                </Location>
             </Locations>
          </BreakpointContent>

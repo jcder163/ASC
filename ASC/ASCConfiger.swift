@@ -16,15 +16,19 @@ class ASCConfiger {
     ///   - key_id: key_id description
     ///   - token: token description
     ///   - appId: appId description
-    static func save(project: String,
-                     issuser_id: String,
-                     key_id: String,
-                     token: String,
-                     appId: String) {
+    static func save(
+        project: String,
+        issuser_id: String,
+        key_id: String,
+        token: String,
+        appId: String,
+        groupId: String
+    ) {
         if var data = UserDefaults.standard.object(forKey: "projects_config") as? [String : [String : String]] {
             data[project] = ["issuser_id" : issuser_id,
                              "key_id" : key_id,
                              "appId" : appId,
+                             "groupId" : groupId,
                              "token" : token]
             UserDefaults.standard.set(data,
                                       forKey: "projects_config")
@@ -32,6 +36,7 @@ class ASCConfiger {
             UserDefaults.standard.set([project : ["issuser_id" : issuser_id,
                                                     "key_id" : key_id,
                                                     "appId" : appId,
+                                                  "groupId" : groupId,
                                                     "token" : token]],
                                       forKey: "projects_config")
         }
@@ -69,6 +74,10 @@ class ASCConfiger {
         return data?.compactMap { $0.key } ?? []
     }
     
+    static func groupId(_ project: String) -> String {
+        let data = UserDefaults.standard.object(forKey: "projects_config") as? [String : [String : String]]
+        return data?[project]?["groupId"] ?? ""
+    }
 }
 
 @propertyWrapper

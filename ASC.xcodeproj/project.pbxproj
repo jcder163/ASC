@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC7624832DDF2B3900796CE9 /* ASC.TestFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7624822DDF2B3900796CE9 /* ASC.TestFlight.swift */; };
+		CC7624852DDF2C4C00796CE9 /* ASC.TestFlight.Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7624842DDF2C4C00796CE9 /* ASC.TestFlight.Groups.swift */; };
+		CC7624872DDF2D0500796CE9 /* ASCManager.TestFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7624862DDF2D0500796CE9 /* ASCManager.TestFlight.swift */; };
+		CC7624892DDF347800796CE9 /* ASC.TestFlight.AddBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7624882DDF347800796CE9 /* ASC.TestFlight.AddBuild.swift */; };
 		CCCF39DE2A1479C3001A9342 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = CCCF39DD2A1479C3001A9342 /* ArgumentParser */; };
 		CCCF39E12A147A28001A9342 /* AppStoreConnect-Swift-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = CCCF39E02A147A28001A9342 /* AppStoreConnect-Swift-SDK */; };
 		CCCF39E42A147B2D001A9342 /* ASCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCF39E32A147B2D001A9342 /* ASCManager.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CC7624822DDF2B3900796CE9 /* ASC.TestFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.TestFlight.swift; sourceTree = "<group>"; };
+		CC7624842DDF2C4C00796CE9 /* ASC.TestFlight.Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.TestFlight.Groups.swift; sourceTree = "<group>"; };
+		CC7624862DDF2D0500796CE9 /* ASCManager.TestFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCManager.TestFlight.swift; sourceTree = "<group>"; };
+		CC7624882DDF347800796CE9 /* ASC.TestFlight.AddBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.TestFlight.AddBuild.swift; sourceTree = "<group>"; };
 		CCCF39D22A147952001A9342 /* ASC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ASC; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCF39E32A147B2D001A9342 /* ASCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASCManager.swift; sourceTree = "<group>"; };
 		CCCF39E62A14DA00001A9342 /* ASC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASC.swift; sourceTree = "<group>"; };
@@ -70,6 +78,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC7624812DDF2AAA00796CE9 /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				CC7624822DDF2B3900796CE9 /* ASC.TestFlight.swift */,
+				CC7624842DDF2C4C00796CE9 /* ASC.TestFlight.Groups.swift */,
+				CC7624882DDF347800796CE9 /* ASC.TestFlight.AddBuild.swift */,
+			);
+			path = TestFlight;
+			sourceTree = "<group>";
+		};
 		CCCF39C92A147952001A9342 = {
 			isa = PBXGroup;
 			children = (
@@ -91,10 +109,12 @@
 			children = (
 				CCCF39E62A14DA00001A9342 /* ASC.swift */,
 				CCDF93222BA192610080D962 /* ASC.Config.swift */,
+				CC7624812DDF2AAA00796CE9 /* TestFlight */,
 				CCEB5E262BA2C200001F5B2C /* Version */,
 				CCDF93202BA1923E0080D962 /* ASC.Show.swift */,
 				CCCF39E32A147B2D001A9342 /* ASCManager.swift */,
 				CCDF93262BA1A1410080D962 /* ASCManager.Foundation.swift */,
+				CC7624862DDF2D0500796CE9 /* ASCManager.TestFlight.swift */,
 				CCCF39E82A14DDC2001A9342 /* ASCConfiger.swift */,
 				CCCF39EA2A14EE68001A9342 /* ASCWhatsNew.swift */,
 				CCDF93162BA172000080D962 /* Loger.swift */,
@@ -184,9 +204,12 @@
 			files = (
 				CCEB5E252BA2A67B001F5B2C /* ASC.Version.Show.swift in Sources */,
 				CCCF39EB2A14EE68001A9342 /* ASCWhatsNew.swift in Sources */,
+				CC7624832DDF2B3900796CE9 /* ASC.TestFlight.swift in Sources */,
 				CCDF93232BA192610080D962 /* ASC.Config.swift in Sources */,
 				CCEB5E232BA29ACE001F5B2C /* ASC.Version.Publish.swift in Sources */,
 				CCDF93252BA193A70080D962 /* ASC.Version.Submission.swift in Sources */,
+				CC7624872DDF2D0500796CE9 /* ASCManager.TestFlight.swift in Sources */,
+				CC7624852DDF2C4C00796CE9 /* ASC.TestFlight.Groups.swift in Sources */,
 				CCDF93172BA172000080D962 /* Loger.swift in Sources */,
 				CCDF93192BA172920080D962 /* ASC.Version.Builds.swift in Sources */,
 				CCDF93212BA1923E0080D962 /* ASC.Show.swift in Sources */,
@@ -197,6 +220,7 @@
 				CCDF931F2BA192100080D962 /* ASC.Version.swift in Sources */,
 				CCDF93272BA1A1410080D962 /* ASCManager.Foundation.swift in Sources */,
 				CCDF931D2BA186810080D962 /* ASC.Version.Create.swift in Sources */,
+				CC7624892DDF347800796CE9 /* ASC.TestFlight.AddBuild.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 63T7Q59995;
+				DEVELOPMENT_TEAM = T7GNDS4LTS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -331,7 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 63T7Q59995;
+				DEVELOPMENT_TEAM = T7GNDS4LTS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
