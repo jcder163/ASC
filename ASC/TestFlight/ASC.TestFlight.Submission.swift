@@ -24,8 +24,6 @@ extension ASC.TestFlight {
         var buildNum: String?
 
         mutating func run() async throws {
-            project = "niuwa"
-            buildNum = "11.63.0.2505280133"
             guard let project = project,
                   let buildNum = buildNum else {
                 fatalError("Project 不可为空")
