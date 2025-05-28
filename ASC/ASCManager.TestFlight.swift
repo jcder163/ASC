@@ -35,4 +35,24 @@ extension ASCManager  {
         try await provider.request(endPoint)
     }
     
+    func submissionBeta(build: String) async throws -> BetaAppReviewSubmissionResponse {
+        let endpoint = APIEndpoint.v1.betaAppReviewSubmissions.post(
+            BetaAppReviewSubmissionCreateRequest(
+                data: BetaAppReviewSubmissionCreateRequest.Data(
+                    type: .betaAppReviewSubmissions,
+                    relationships: BetaAppReviewSubmissionCreateRequest.Data.Relationships(
+                        build: BetaAppReviewSubmissionCreateRequest.Data.Relationships.Build(
+                            data: BetaAppReviewSubmissionCreateRequest.Data.Relationships.Build.Data(
+                                type: .builds,
+                                id: build
+                            )
+                        )
+                    )
+                )
+            )
+        )
+        
+        let result = try await provider.request(endpoint)
+        return result
+    }
 }

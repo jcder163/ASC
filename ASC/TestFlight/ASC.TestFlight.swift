@@ -22,10 +22,10 @@ extension ASC {
             // Pass an array to `subcommands` to set up a nested tree of subcommands.
             // With language support for type-level introspection, this could be
             // provided by automatically finding nested `ParsableCommand` types.
-            subcommands: [Groups.self, AddBuild.self],
+            subcommands: [Groups.self, Submission.self],
             
             // A default subcommand, when provided, is automatically selected if a
             // subcommand is not given on the command line.
-            defaultSubcommand: AddBuild.self)
+            defaultSubcommand: Submission.self)
     }
 }

@@ -27,7 +27,7 @@ struct ASC: AsyncParsableCommand {
 
         // A default subcommand, when provided, is automatically selected if a
         // subcommand is not given on the command line.
-        defaultSubcommand: Version.self)
+        defaultSubcommand: TestFlight.self)
 
 }
 
