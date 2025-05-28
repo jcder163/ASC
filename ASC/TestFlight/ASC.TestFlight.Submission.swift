@@ -37,7 +37,7 @@ extension ASC.TestFlight {
 
             let build = try await manager.fetchBuild(appID: app.id, buildNumber: buildNum)
             
-            try await manager.addBuild(build.id, to: ASCConfiger.groupId(project))
+            try await manager.addBuild(build.id, to: groupId)
 
             let resp = try await manager.submissionBeta(build: build.id)
             print(resp)
